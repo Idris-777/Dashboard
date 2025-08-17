@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: 'ByteBounce';
 }
 
 
@@ -16,24 +17,90 @@
 .background .master-container{
     height: 50vh;
     width: 70vw;
-    border: 2px solid black;
-    justify-self: center;
-    margin-top: 50px;
+
+    
+   
     
 }
 
 .container1{
-    height: 50%;
+  
     width: 100%;
+    padding: 10px;
+    padding-bottom: 0px;
     
     
 }
 
 .container2{
-    height: 50%;
+    padding:10px;
     width: 100%;
    
  
 }
+
 ul{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    font-size: 200%;
+   
+
+}    
+
+a{
+    text-decoration: none;
+    color: rgb(93, 60, 60);
+}
+
+.quote{
+    height: 100px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+    font-size:175%;
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 30px;
     
+}
+
+
+
+
+
+.search-container {
+  /* Positions the bar in the middle of the screen. */
+  /* Adjust top/left percentages as needed! */
+  position: absolute;
+  top: 70%; 
+  left: 50%;
+  justify-self: center;
+  z-index: 10; /* Ensures it's on top of the background */
+  transform: translate(-50%, -80%); /* Centers the container */
+  opacity: 0.5;
+}
+
+/* Style for the search input field */
+#search-input {
+  font-family: 'ByteBounce', cursive; /* The pixelated font */
+  background-color: white;
+    color: rgb(54 53 109); /* Light text color */
+  /* border: 2px solid #22223b; Darker border */
+  padding: 15px;
+  width: 500px; /* Adjust width as you like */
+  /* outline: none; Removes the default browser outline */
+  font-size: 32px;
+  
+ 
+  /* Creates the "pixelated" shadow effect */
+  /* box-shadow: 
+    4px 4px 0px #22223b; A solid, blocky shadow */
+}
+
+/* Style for the placeholder text */
+#search-input::placeholder {
+  color: #9a8c98; /* Muted placeholder color */
+  opacity: 1; 
+}
