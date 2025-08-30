@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     font-family: 'ByteBounce';
+    font-size: 106%;
 }
 
 
@@ -18,6 +19,7 @@
     height: 50vh;
     width: 70vw;
     margin: 0px -25px;
+    font-size: 170%;
 
 
     
@@ -57,10 +59,12 @@ a{
 
 .quote{
     height: 50px;
-    width: 200px;
+    width: 339px;
     text-align: center;
     padding: 8px;
-    margin: -30px auto
+    margin: -30px auto;
+    font-size: 143%;
+    
    
 
  
