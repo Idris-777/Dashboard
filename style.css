@@ -17,6 +17,8 @@
 .background .master-container{
     height: 50vh;
     width: 70vw;
+    margin: 0px -25px;
+
 
     
    
@@ -43,7 +45,7 @@ ul{
     display: flex;
     gap:20px;
     list-style: none;
-    font-size: 200%;
+    
    
 
 }    
@@ -54,19 +56,16 @@ a{
 }
 
 .quote{
-    height: 100px;
-    width: 350px;
-    margin: auto;
+    height: 50px;
+    width: 200px;
     text-align: center;
     padding: 8px;
-    font-size:175%;
-    margin-bottom: 40px;
-    position: relative;
-    bottom: 30px;
+    margin: -30px auto
+   
+
+ 
     
 }
-
-
 
 
 
@@ -88,10 +87,10 @@ a{
   background-color: white;
     color: rgb(54 53 109); /* Light text color */
   /* border: 2px solid #22223b; Darker border */
-  padding: 15px;
-  width: 500px; /* Adjust width as you like */
+  
+  width: 300px; /* Adjust width as you like */
   /* outline: none; Removes the default browser outline */
-  font-size: 32px;
+ height: 25px;
   
  
   /* Creates the "pixelated" shadow effect */
