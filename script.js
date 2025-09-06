@@ -3,7 +3,7 @@ const searchForm = document.getElementById('search-form');
 const searchInput = document.getElementById('search-input');
 
 // Add an event listener that waits for the form to be submitted
-searchForm.addEventListener('submit', function(event) {
+searchForm.addEventListener('submit', function (event) {
   // Prevent the page from reloading, which is the default form behavior
   event.preventDefault();
 
@@ -20,3 +20,10 @@ searchForm.addEventListener('submit', function(event) {
     window.location.href = searchUrl;
   }
 });
+
+
+
+
+
+
+

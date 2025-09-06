@@ -1,3 +1,9 @@
+@font-face {
+      font-family: "ByteBounce";
+      src: url("./fonts/ByteBounce.woff2") format("woff2");
+    }
+
+
 *{
     margin: 0px;
     font-family: 'ByteBounce';
@@ -13,13 +19,20 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
+    overflow: hidden;
 }
 
 .background .master-container{
-    height: 50vh;
-    width: 70vw;
-    margin: 0px -25px;
+    
+    
+    width: 100%;
+    margin: 10px 0px;
     font-size: 170%;
+    display: grid;
+    background-color: lightpink;
+    
+   
+    grid-template-columns: repeat(10, 1fr) ;
 
 
     
@@ -27,21 +40,7 @@
     
 }
 
-.container1{
-  
-    width: 100%;
-    padding: 10px;
-    padding-bottom: 0px;
-    
-    
-}
 
-.container2{
-    padding:10px;
-    width: 100%;
-   
- 
-}
 
 ul{
     display: flex;
@@ -57,13 +56,7 @@ a{
     color: rgb(93, 60, 60);
 }
 
-.quote{
-    height: 50px;
-    width: 339px;
-    text-align: center;
-    padding: 8px;
-    margin: -30px auto;
-    font-size: 143%;
+
     
    
 
@@ -87,6 +80,7 @@ a:hover{
   z-index: 10; /* Ensures it's on top of the background */
   transform: translate(-50%, -80%); /* Centers the container */
   opacity: 0.5;
+  
 }
 
 /* Style for the search input field */
@@ -110,4 +104,21 @@ a:hover{
 #search-input::placeholder {
   color: #9a8c98; /* Muted placeholder color */
   opacity: 1; 
+}
+
+
+
+.master-container div{
+    width: 105px;
+    overflow: hidden;
+    margin: 0px 5px;
+
+}
+
+
+
+@media screen and (max-width:800px) {
+    .background .master-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
