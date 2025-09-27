@@ -1,6 +1,6 @@
 @font-face {
       font-family: "ByteBounce";
-      src: url("./fonts/ByteBounce.woff2") format("woff2");
+      src: url("./Fonts/ByteBounce.woff2") format("woff2");
     }
 
 
@@ -62,7 +62,7 @@ a{
 
  
     
-}
+
 
 a:hover{
     opacity: 0.3;
